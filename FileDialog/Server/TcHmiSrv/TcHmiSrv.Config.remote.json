@@ -1,0 +1,12 @@
+{
+    "CERTIFICATEEXPIRATION": "P14000D",
+    "REQUIREAUTH": 2,
+    "VIRTUALDIRECTORIES": {
+        "/": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\FileDialog",
+        "/Beckhoff.TwinCAT.HMI.Controls": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.742.4\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Functions": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.742.4\\runtimes\\native1.12-tchmi",
+        "/bin": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\FileDialog\\bin\\",
+        "/bin/framework": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\FileDialog\\bin\\framework",
+        "/framework": "C:\\Users\\Administrator\\source\\repos\\FileDialog\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.742.4\\runtimes\\native1.12-tchmi"
+    }
+}

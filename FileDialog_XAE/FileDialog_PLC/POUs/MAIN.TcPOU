@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <POU Name="MAIN" Id="{dbcb18db-7369-43c1-a98b-4ad572e1f264}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF Allgemein.ImExport.bTriggerNewFileSelected THEN
+	Allgemein.ImExport.bTriggerNewFileSelected := FALSE;
+END_IF
+
+IF Allgemein.ImExport.bTriggerNewFolderSelected THEN
+	Allgemein.ImExport.bTriggerNewFolderSelected := FALSE;
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+      <LineId Id="6" Count="1" />
+      <LineId Id="9" Count="2" />
+      <LineId Id="8" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

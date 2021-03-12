@@ -1,0 +1,30 @@
+﻿{
+  "function": {
+    "name": "OpenFileDialog",
+    "namespace": "TcHmi.Functions.FileDialog",
+    "displayName": "OpenFileDialog",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/VOID"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": [
+      {
+        "name": "extensions",
+        "displayName": "extensions",
+        "type": "tchmi:general#/definitions/Array",
+        "description": "",
+        "defaultValue": "",
+        "required": false,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      }
+    ]
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}

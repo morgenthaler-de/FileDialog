@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
+  <DUT Name="MyStruct" Id="{d8d6d5d1-2aa6-4cd5-bf5f-31a38b8b06ba}">
+    <Declaration><![CDATA[TYPE MyStruct :
+STRUCT
+sFilePath : STRING(1024);
+sFolderPath : STRING(1024);
+
+bTriggerNewFileSelected : BOOL;
+bTriggerNewFolderSelected : BOOL;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

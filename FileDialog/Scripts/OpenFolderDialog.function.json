@@ -1,0 +1,17 @@
+﻿{
+  "function": {
+    "name": "OpenFolderDialog",
+    "namespace": "TcHmi.Functions.FileDialog",
+    "displayName": "OpenFolderDialog",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/VOID"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": []
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}
